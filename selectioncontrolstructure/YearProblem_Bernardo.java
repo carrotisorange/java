@@ -1,4 +1,5 @@
-package controlstructure;
+package selectioncontrolstructure;
+
 import java.util.Scanner;
 public class YearProblem_Bernardo {
     public static void main(String[] args) {

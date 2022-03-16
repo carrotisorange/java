@@ -1,13 +1,16 @@
-package controlstructure;
+package selectioncontrolstructure;
 
 class SwitchProgram {
     public static void main(String[] args) {
 
-        int number = 29;
+        int number = 'B';
         String size;
 
         // switch statement to check size
         switch (number) {
+            case 'A': case 'B':
+                size = "ThisisAwesome!";
+                break;
             case 29:
                 size = "Small";
                 break;
@@ -24,7 +27,6 @@ class SwitchProgram {
             default:
                 size = "Unknown";
                 break;
-
         }
         System.out.println("Size: " + size);
     }

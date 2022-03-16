@@ -1,4 +1,4 @@
-package controlstructure;
+package selectioncontrolstructure;
 
 import java.util.Scanner;
 
