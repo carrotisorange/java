@@ -6,7 +6,7 @@ public class WhileLoopProgram {
         int i = 1, n = 1;
 
         while (i < n) {
-            System.out.println(i);
+            System.out.println(i + "Java is Fun");
             i++;
         }
 
@@ -18,9 +18,10 @@ public class WhileLoopProgram {
 
         // while (number >= 0) {
         //     sum += number;
+        //     System.out.println("The total sum is: " + sum);
 
         //     System.out.println("Enter a number");
-        //     number = input.nextInt();
+
         // }
 
         // System.out.println("Sum = " + sum);

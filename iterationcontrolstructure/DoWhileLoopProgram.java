@@ -5,7 +5,7 @@ public abstract class DoWhileLoopProgram {
         int i = 1, n = 1;
 
         do {
-            System.out.println(i);
+            System.out.println(i + ": Java is fun!");
             i++;
         } while (i < n);
 

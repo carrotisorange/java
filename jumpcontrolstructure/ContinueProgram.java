@@ -6,7 +6,7 @@ public class ContinueProgram {
             if (i == 4) {
                 continue;
             }
-            System.out.println(i);
+            System.out.println(i + ": Java is Fun");
         }
     }
 }

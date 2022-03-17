@@ -17,15 +17,16 @@ public class ForLoopProgram {
         // for (int i = 1; i <= n; ++i) 
         // {
         //     sum += i;     
+        //     System.out.println(i + ":" + sum);
         // }
         // System.out.println("Sum = " + sum);
 
         //Infinite loop
-        int sum = 0;
+        // int sum = 0;
 
-        for (int i = 1; i <= 10; --i) {
-            System.out.println("Hello");
-        }
+        // for (int i = 1; i <= 10; --i) {
+        //     System.out.println("Hello");
+        // }
   }
     }
 
