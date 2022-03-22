@@ -21,6 +21,5 @@ public class ReverseOrderNumber {
         System.out.println("The sum of the numbers = " + sum);
         System.out.print("The numbers in reverse order are: ");
         System.out.println(item4 + " " + item3 + " " + item2 + " " + item1 + " " + item0);
-
     }
 }

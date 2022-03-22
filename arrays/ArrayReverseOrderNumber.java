@@ -4,7 +4,7 @@ public class ArrayReverseOrderNumber {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 
-        int[] items = new int[3];
+        int[] items = new int[1];
         int sum;
 
         System.out.println("Enter five integers:");
@@ -19,7 +19,8 @@ public class ArrayReverseOrderNumber {
         System.out.println("The sum of the numbers = " + sum);
         System.out.print("The numbers in reverse order are: ");
 
-        for (int counter = items.length-1; counter >= 0; counter--) {
+        for (int counter = items.length-1; counter >= 0; counter--)
+        {
             System.out.print(items[counter] + " ");
         }
 

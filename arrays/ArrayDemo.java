@@ -34,7 +34,7 @@ public class ArrayDemo {
         //additional assignment statements
         list[3] = 63;
         
-        i=3;
+        int i=3;
         list[i] = 63;
 
         list[(2*i-3] = 58;
@@ -116,7 +116,7 @@ public class ArrayDemo {
         }
 
         //finding the sum and average of an array:
-        for (int index=0; index<sales.length; index++)
+        for (int i=0; i<sales.length; i++)
         {
             sum = sum + sales[0];
 
@@ -132,7 +132,7 @@ public class ArrayDemo {
         //determining the largest element in the array
         maxIndex = 0;
 
-        int[] sales = {1,2,6};
+        int[] sales = {12.50,8.35, 19.60, 25.00, 14.00, 39.43, 35.90, 98.23, 66.25, 35.64};
 
         for(int index=1; index<sales.length; i++)
         {
@@ -151,7 +151,7 @@ public class ArrayDemo {
         //0,1,2,3,4,5,6,7,8,9   
         //valid
         index >= 0 and index <= arraySize-1
-        //out of bounds
+        //  out of bounds
         index < 0 and index > arraySize-1;
 
         //consider this example
@@ -202,7 +202,85 @@ public class ArrayDemo {
 
         Clock[] arrivalTempEmp = new Clock[100];
 
+        //assignment operator, relational operators, and Arrays: A precaution
 
+        //declaration and initialization
+        int[] listA = {5,10, 15, 20, 25, 30, 35};
+        //declaration
+        int[] listB = new int[listA.length];
+
+        //assign values of listA to listB (shallow copying)
+        listB = listA
+
+        //assign values of listA to listB (deep copying)
+        for(int index = 0; index<listA.length; i++)
+        {
+            listB[index] = listA[index];
+        }
+
+        //compare if listA and listB are in the same array
+        if(listA == listB)
+
+
+        //compare if the values of two arrays are equals
+        boolean areEqualArrays(int[]    firstArray, int[] secondArray)
+        {
+            if(firstArray.length != secondArray.length)
+            {
+                return false;
+            }
+
+            for(int index = 0; index < firstArray.length; i++)
+            {
+                if(firstArray[index] != secondArray[index])
+                {
+                    return false;
+                }
+
+                return true;
+            }
+        }
+
+
+        //searching an array for a specific item
+        int[] list = {35, 12, 27, 18, 45, 16, 38};
+
+        public static int seqSearch()
+        {
+            int loc;
+            boolean found = false;
+            loc = 0;
+
+            while(loc < listLength && !found)
+            {
+                if(list[loc] == searchItem
+                {
+                    found true;
+                }
+                else{
+                    loc++;
+                }
+            }
+
+            if(found)
+            {
+                return loc;
+            }else{
+                return -1;
+            }
+        }
+
+        //arrays of string objects
+        String[] nameList = new String[5];
+
+        nameList[1] = "Peter Parker";
+        nameList[2] = "Bruce Banner";
+        nameList[3] = "Tony Stark";
+
+        //arrays of other objects
+        Clock[] arrivalTempEmp = new Clock[100];
+
+        HelloWorld[] pring = new HelloWorld[10];
 
     }
 }
