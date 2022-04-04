@@ -1,11 +1,17 @@
 {
     "java.project.sourcePaths": [
+        "midterms/exam/problem",
         "midterms/demo/selectioncontrolstructure",
         "midterms/demo/jumpcontrolstructure",
         "midterms/demo/iterationcontrolstructure",
         "midterms/demo/flowchart",
         "midterms/demo/arrays",
         "midterms/demo/Intro",
-        "midterms/exam/problem"
+        "midterms/activities/sequence_problem",
+        "midterms/activities/repetition_control_structure/while_do_while",
+        "midterms/activities/repetition_control_structure/for",
+        "midterms/activities/decision_control_structure/switch",
+        "midterms/activities/decision_control_structure/if",
+        "midterms/exam/answer"
     ]
 }
