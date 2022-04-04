@@ -1,5 +1,3 @@
-package selectioncontrolstructure;
-
 class SwitchProgram {
     public static void main(String[] args) {
 

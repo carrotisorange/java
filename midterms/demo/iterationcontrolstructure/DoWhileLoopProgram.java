@@ -1,4 +1,3 @@
-package iterationcontrolstructure;
 import java.util.Scanner;
 public abstract class DoWhileLoopProgram {
     public static void main(String[] args) {

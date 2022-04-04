@@ -1,5 +1,3 @@
-package flowchart;
-
 import java.util.Scanner;
 public class sumOfTwoNumbers {
     public static void main(String[] args) {

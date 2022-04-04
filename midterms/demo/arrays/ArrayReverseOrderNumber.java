@@ -1,4 +1,3 @@
-package arrays;
 import java.util.Scanner;
 public class ArrayReverseOrderNumber {
     public static void main(String[] args) {

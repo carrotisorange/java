@@ -1,5 +1,3 @@
-package iterationcontrolstructure;
-
 public class ForLoopProgram {
     public static void main(String[] args) {
         //basic example

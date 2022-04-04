@@ -1,5 +1,3 @@
-package flowchart;
-
 public class AverageDemo {
     public static void main(String[] args) {
         double avg, sum;

@@ -1,5 +1,3 @@
-package arrays;
-
 public class ArrayDemoOperations {
     public static void main(String[] args) {
         int[] listA = { 5, 10, 15, 20, 25, 30, 35 };

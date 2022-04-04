@@ -1,2 +1,11 @@
 {
+    "java.project.sourcePaths": [
+        "midterms/demo/selectioncontrolstructure",
+        "midterms/demo/jumpcontrolstructure",
+        "midterms/demo/iterationcontrolstructure",
+        "midterms/demo/flowchart",
+        "midterms/demo/arrays",
+        "midterms/demo/Intro",
+        "midterms/exam/problem"
+    ]
 }

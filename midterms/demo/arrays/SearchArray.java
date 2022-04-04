@@ -1,5 +1,3 @@
-package arrays;
-
 import java.util.Scanner;
 public class SearchArray {
     public static void main(String[] args) {

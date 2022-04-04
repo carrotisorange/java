@@ -1,5 +1,3 @@
-package iterationcontrolstructure;
-
 import java.util.Scanner;
 public class WhileLoopProgram {
     public static void main(String[] args) {

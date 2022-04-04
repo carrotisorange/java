@@ -1,5 +1,3 @@
-package iterationcontrolstructure;
-
 public class SampleLogicalExpressions {
     public static void main(String[] args) {
         boolean found = true;

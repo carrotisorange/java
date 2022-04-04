@@ -1,5 +1,3 @@
-package selectioncontrolstructure;
-
 import java.util.Scanner;
 
 public class IfProgram {
