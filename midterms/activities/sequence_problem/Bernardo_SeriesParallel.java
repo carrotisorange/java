@@ -30,6 +30,6 @@ public class Bernardo_SeriesParallel {
 
         System.out.print("\nSeries Connection: " + df.format(series_connection));
 
-        System.out.print("\nParallel Connection: " + df.format(parallel_connection));
+        System.out.print("\nParallel Connection: " + parallel_connection);
     }   
 }
