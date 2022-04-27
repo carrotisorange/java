@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "midterms/exam/problem",
+        "midterms/exam/answer",
         "midterms/demo/selectioncontrolstructure",
         "midterms/demo/jumpcontrolstructure",
         "midterms/demo/iterationcontrolstructure",
@@ -12,6 +13,7 @@
         "midterms/activities/repetition_control_structure/for",
         "midterms/activities/decision_control_structure/switch",
         "midterms/activities/decision_control_structure/if",
-        "midterms/exam/answer"
+        "finals/methods",
+        "finals"
     ]
 }
