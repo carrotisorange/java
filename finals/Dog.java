@@ -1,22 +1,28 @@
 public class Dog {
-    public static void main(String[] x) {
-      System.out.println("I'm a dog");
-      bark();
-      bark();
-      eat("Bone");
-      sleep();
+    public static void main(String[] args) {    
+        double a = 10;
+        double b = 2;
+
+        double q = divideNum(a, b);
+
+        System.out.print(q);
     }
 
-    public static void bark()
+    public static double divideNum(double a, double b)
     {
-        System.out.println("Bark");
+        double q = 0;
+        if(isInputValid(b)){
+            q = a / b;
+        }
+        return q;
     }
 
-    public static void eat(String s) {
-        System.out.println("I'm hungry! I want, " + s);
-    }
-
-    public static void sleep() {
-        System.out.println("Zzzzzz");
+    public static boolean isInputValid(double b)
+    {
+        if (b == 0) {    
+            return false;
+        }else{
+            return true;
+        }
     }
 }

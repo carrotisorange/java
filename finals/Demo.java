@@ -1,34 +1,20 @@
 import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
-      double  x = divideNum();
+       String x = sayHello();
+       System.out.print(x + ", Andy");
+        double y = addTwoNum(1,1);
+        System.out.println(y);
 
-      System.out.print(x);
-    }
+    }   
 
-    public static void checkInput(double b)
+    public static String sayHello()
     {
-        if(b<=0)
-        {
-            System.exit(0);
-        }else{
-            divideNum();
-        }
+        return "Hello";
     }
 
-    public static double divideNum()
-    {   
-        Scanner kbd = new Scanner(System.in);
-        displayLabel();
-        double a = kbd.nextDouble();
-        displayLabel();
-        double b = kbd.nextDouble();
-        checkInput(b);
-        return a/b;
-    }
-
-    public static void displayLabel()
+    public static double addTwoNum(int a, int b)
     {
-        System.out.println("Enter a number:");
+        return a + b;
     }
 }
